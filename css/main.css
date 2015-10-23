@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /*========================
 header
 ========================*/
@@ -11,3 +13,32 @@ header
   padding-right: 15px;
   width: 1170px;
 }
+
+header {
+  background-color: black;
+  height: 100px;
+}
+
+header h1 {
+  border-bottom: 1px white solid;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
+  line-height: 1;
+  margin: 0 0 0 10%;
+  padding-bottom: 5px;
+  padding-top: 50px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+
+
+/*========================
+resets
+========================*/
+
+/*h1 {
+  margin: 0;
+}*/
