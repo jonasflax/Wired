@@ -1,17 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /*========================
+body
+========================*/
+
+/*body {
+  align: center;
+  width: 1200px
+}*/
+
+
+
+/*========================
 header
 ========================*/
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-    /*also: margin: 0 auto;*/
-    /*also: margin: 0 auto 0 auto;*/
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1170px;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 20px 20px;
+  align-content: center;
+  width: 1200px;
 }
 
 header {
@@ -35,9 +43,119 @@ header h1 {
 
 
 /*========================
-resets
+aside
 ========================*/
 
-/*h1 {
+[class*='col-'] {
+  border: 1px;
+  border-top: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.col-1-8 {
+  clear: both;
+  float: right;
+  height: 1500px;
+  margin: auto;
+  width: 150px;
+}
+
+.col-5-5-8 {
+  float: left;
+  height: 637.5px;
+  margin: auto;
+  width: 825px;
+}
+
+.col-2-75-8 {
+  clear: left;
+  float: left;
+  height: 225px;
+  margin: auto;
+  width: 412.5px;
+}
+
+.col-2-75-8-2 {
+  clear: both;
+  float: left;
+  height: 375px;
+  margin: auto;
+  width: 412.5px;
+}
+
+.col-2-75-8-3 {
+  clear: both;
+  float: left;
+  height: 675px;
+  margin: auto;
+  width: 412.5px;
+}
+
+.links {
+  text-align: center;
   margin: 0;
-}*/
+  padding: 0;
+}
+
+img {
+  margin: 0 1em 1em 1em;
+}
+
+h2 {
+  border-bottom: 1px black solid;
+  margin: .5em auto;
+  min-height: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  text-indent: 1em;
+}
+
+h2 span {
+  font-size: 14px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-size: 16px;
+  /*text-align: left;*/
+  text-indent: 1em;
+  text-transform: capitalize;
+}
+
+h5 {
+  font-size: 12px;
+  margin: 1em 1em 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+h5 span {
+  text-transform: none;
+}
+
+h6 {
+  font-size: 12px;
+  /*border-bottom: 3px blue solid;*/
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 1em;
+
+}
+
+p span {
+  text-transform: uppercase;
+}
