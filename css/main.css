@@ -100,8 +100,10 @@ aside
 }
 
 img {
-  margin: 0 0 1em .65em;
-  padding-right: 1em;
+  background-color: gray;
+  margin: 0 1em 1em .65em;
+  opacity: .5;
+  /*padding-right: 1em;*/
 }
 
 h2 {
