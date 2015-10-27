@@ -19,7 +19,7 @@ header
 
 .container {
   margin: 0 auto 0 auto;
-  padding: 0 20px 20px 20px;
+  padding-bottom: 20px;
   align-content: center;
   width: 1200px;
 }
@@ -69,6 +69,7 @@ aside
 }
 
 .col-2-75-8 {
+  clear: both;
   height: 225px;
   margin: auto;
   width: 412.5px;
@@ -99,6 +100,7 @@ img {
 
 h2 {
   border-bottom: 1px black solid;
+  display: block;
   margin: .5em auto;
   min-height: 1.5em;
   text-align: left;
@@ -113,7 +115,7 @@ h2 span {
 }
 
 h3 {
-  display: block;
+  display: inline-block;
   font-size: 16px;
   /*text-align: left;*/
   text-indent: 1em;
