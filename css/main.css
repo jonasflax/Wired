@@ -4,10 +4,12 @@
 body
 ========================*/
 
-/*body {
-  align: center;
-  width: 1200px
-}*/
+body {
+  margin: auto;
+  /*padding: 0;*/
+  align-content: center;
+  width: 1200px;
+}
 
 
 
@@ -47,6 +49,7 @@ aside
 ========================*/
 
 [class*='col-'] {
+  float: left;
   border: 1px;
   border-top: 10px;
   border-color: black;
@@ -54,23 +57,18 @@ aside
 }
 
 .col-1-8 {
-  clear: both;
-  float: right;
   height: 1500px;
   margin: auto;
   width: 150px;
 }
 
 .col-5-5-8 {
-  float: left;
   height: 637.5px;
   margin: auto;
   width: 825px;
 }
 
 .col-2-75-8 {
-  clear: left;
-  float: left;
   height: 225px;
   margin: auto;
   width: 412.5px;
@@ -78,15 +76,12 @@ aside
 
 .col-2-75-8-2 {
   clear: both;
-  float: left;
   height: 375px;
   margin: auto;
   width: 412.5px;
 }
 
 .col-2-75-8-3 {
-  clear: both;
-  float: left;
   height: 675px;
   margin: auto;
   width: 412.5px;
@@ -118,6 +113,7 @@ h2 span {
 }
 
 h3 {
+  display: block;
   font-size: 16px;
   /*text-align: left;*/
   text-indent: 1em;
