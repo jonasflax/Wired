@@ -8,7 +8,7 @@ body {
   margin: auto;
   /*padding: 0;*/
   align-content: center;
-  width: 1200px;
+  width: 1000px;
 }
 
 
@@ -21,7 +21,7 @@ header
   margin: 0 auto 0 auto;
   padding-bottom: 20px;
   align-content: center;
-  width: 1200px;
+  width: 1000px;
 }
 
 header {
@@ -49,7 +49,6 @@ aside
 ========================*/
 
 [class*='col-'] {
-  float: left;
   border: 1px;
   border-top: 10px;
   border-color: black;
@@ -57,32 +56,37 @@ aside
 }
 
 .col-1-8 {
+  float: right;
   height: 1500px;
   margin: auto;
   width: 150px;
 }
 
 .col-5-5-8 {
+  float: left;
   height: 637.5px;
   margin: auto;
   width: 825px;
 }
 
 .col-2-75-8 {
-  clear: both;
+  /*clear: both;*/
+  float: left;
   height: 225px;
   margin: auto;
   width: 412.5px;
 }
 
 .col-2-75-8-2 {
-  clear: both;
+  clear: left;
+  float: left;
   height: 375px;
   margin: auto;
   width: 412.5px;
 }
 
 .col-2-75-8-3 {
+  float: left;
   height: 675px;
   margin: auto;
   width: 412.5px;
@@ -95,7 +99,8 @@ aside
 }
 
 img {
-  margin: 0 1em 1em 1em;
+  margin: 0 0 1em .65em;
+  padding-right: 1em;
 }
 
 h2 {
@@ -130,6 +135,7 @@ h5 {
 }
 
 h4 {
+  display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -139,16 +145,18 @@ h5 span {
 }
 
 h6 {
+  border-bottom: 5px solid #add8e6;
+  display: inline-block;
   font-size: 12px;
-  /*border-bottom: 3px blue solid;*/
-  margin: 0 auto;
+  line-height: .5;
+  margin: auto;
   padding: 0;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: blue;
+
 }
 
 p {
+  display: block;
   font-size: 14px;
   margin: 0 1em;
 
