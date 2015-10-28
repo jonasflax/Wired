@@ -2,27 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:700);
 
 /*========================
-body
-========================*/
-
-body {
-  margin: auto;
-  /*padding: 0;*/
-  align-content: center;
-  width: 1000px;
-}
-
-
-
-/*========================
 header
 ========================*/
 
-.container {
-  margin: 0 auto 0 auto;
-  padding-bottom: 20px;
+main {
+  margin: auto;
   align-content: center;
-  width: 1000px;
+  max-width: 1000px;
+  width: 100%;
 }
 
 header {
@@ -56,40 +43,40 @@ aside
   border-style: solid;
 }
 
-.col-1-8 {
+.col-1 {
   float: right;
   height: 1500px;
-  margin: auto;
+  /*margin: auto;*/
   width: 150px;
 }
 
-.col-5-5-8 {
+.col-5-5 {
   float: left;
   height: 637.5px;
-  margin: auto;
+  /*margin: auto;*/
   width: 825px;
 }
 
-.col-2-75-8 {
+.col-2-75 {
   /*clear: both;*/
   float: left;
   height: 225px;
-  margin: auto;
+  /*margin: auto;*/
   width: 412.5px;
 }
 
-.col-2-75-8-2 {
+.col-2-75-2 {
   clear: left;
   float: left;
   height: 375px;
-  margin: auto;
+  /*margin: auto;*/
   width: 412.5px;
 }
 
-.col-2-75-8-3 {
+.col-2-75-3 {
   float: left;
   height: 675px;
-  margin: auto;
+  /*margin: auto;*/
   width: 412.5px;
 }
 
@@ -108,7 +95,6 @@ img {
 
 h2 {
   border-bottom: 1px black solid;
-  display: block;
   font-family: 'Droid Serif', serif;
   margin: .5em auto;
   min-height: 1.5em;
