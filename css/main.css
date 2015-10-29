@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:700);
 
 /*========================
-header
+main
 ========================*/
 
 main {
@@ -12,9 +12,16 @@ main {
   width: 100%;
 }
 
+
+
+/*========================
+header
+========================*/
+
 header {
   background-color: black;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 header h1 {
@@ -31,67 +38,9 @@ header h1 {
 }
 
 
-
 /*========================
-aside
+h2, h3, h4, h5, h6...
 ========================*/
-
-[class*='col-'] {
-  border: 1px;
-  border-top: 10px;
-  border-color: black;
-  border-style: solid;
-}
-
-.col-1 {
-  float: right;
-  height: 1500px;
-  /*margin: auto;*/
-  width: 150px;
-}
-
-.col-5-5 {
-  float: left;
-  height: 637.5px;
-  /*margin: auto;*/
-  width: 825px;
-}
-
-.col-2-75 {
-  /*clear: both;*/
-  float: left;
-  height: 225px;
-  /*margin: auto;*/
-  width: 412.5px;
-}
-
-.col-2-75-2 {
-  clear: left;
-  float: left;
-  height: 375px;
-  /*margin: auto;*/
-  width: 412.5px;
-}
-
-.col-2-75-3 {
-  float: left;
-  height: 675px;
-  /*margin: auto;*/
-  width: 412.5px;
-}
-
-.links {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  background-color: gray;
-  margin: 0 1em 1em .65em;
-  opacity: .5;
-  /*padding-right: 1em;*/
-}
 
 h2 {
   border-bottom: 1px black solid;
@@ -145,11 +94,87 @@ h6 {
 
 }
 
+
+
+/*========================
+Body Content
+========================*/
+
+[class*='col-'] {
+  border: 1px;
+  border-top: 10px;
+  border-color: black;
+  border-style: solid;
+  margin: 0 20px 20px 0;
+}
+
+.col-1 {
+  float: right;
+  height: 1500px;
+  margin: 0;
+  width: 13%;
+}
+
+.col-5-5 {
+  float: left;
+  height: 637.5px;
+  /*margin: auto;*/
+  width: 80.5%;
+}
+
+.col-2-75 {
+  /*clear: both;*/
+  float: left;
+  height: 225px;
+  /*margin: auto;*/
+  width: 39.25%;
+}
+
+.col-2-75-2 {
+  clear: left;
+  float: left;
+  height: 375px;
+  /*margin: auto;*/
+  width: 39.25%;
+}
+
+.col-2-75-3 {
+  float: left;
+  height: 675px;
+  /*margin: auto;*/
+  width: 39.25%;
+}
+
+
+/*========================
+Links and Images
+========================*/
+
+.links {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  background-color: gray;
+  margin: 0 10px 10px 10px;
+  opacity: .5;
+  text-align: center;
+  width: 78.5%;
+  /*padding-right: 1em;*/
+}
+
+
+
+/*========================
+Copy
+========================*/
+
 p {
   display: block;
   font-size: 14px;
   margin: 0 1em;
-
 }
 
 p span {
